@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+            align-items: center;
+            margin:10;
+            padding: 0;
+        }
+        .subscribe{
+            background-color: red;
+            width: 150px;
+            border: 1px solid red;
+            height: 40px;
+            /* box-shadow: inset 0px 0px 2px 2px; */
+            color: white;
+            font-size: 16px;
+        }
+        .subscribe:hover{
+            background-color: rgb(248, 110, 110);
+            cursor: pointer;
+        }
+        .btn{
+            color: black;
+            /* text-shadow: 1px 1px; */
+            width: 100px;
+            height: 40px;
+            /* border-radius: 20px; */
+            border:2px solid blue;
+            font-size: 16px;
+            font-weight: 500;
+        
+        }
+        .join:hover{
+            background-color: rgb(6, 95, 292);
+            color: white;
+            cursor: pointer;
+        }
+        .tweet:hover{
+            cursor: pointer;
+            background-color: blue;
+        }
+        .tweet{
+            background-color: rgb(6, 95, 292);
+            border: none;
+            color: white;
+            border-radius: 20px;
+        
+        }
+        .logo img{
+            width: 50px;
+            margin: 0;
+        }
+        header{
+            display: flex;
+        }
+        header ul{
+            display: flex;
+            gap: 60px;
+        }
+        header ul li,a{
+            text-decoration: none;
+            list-style: none;
+        }
+        a:hover{
+            cursor: pointer;
+        }
+        .join{
+            color: rgb(41, 41, 229);
+        }
+        .section1{
+            margin-top: 20px;
+        }
+        .section2{
+            margin-top: 20px;
+        }
+        
+        .sec1{
+            margin-top: 20px;
+        }
+        .sec1 .two-btn{
+            gap: 60px;
+            margin-top: 20px;
+        }
+        .amazon{
+            border: 1px solid black;
+            width: max-content;
+            margin: 30px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://youtube.com" target="_blank">
+        <button class="subscribe">SUBSCRIBE</button>
+        <button class="btn join">JOIN</button>
+        <button class="btn tweet">Tweet</button>
+    </form>
+    <section class="sec1">
+        <button class="click">Click</button>
+        <br>
+        <div class="two-btn">
+            <button>Shiva</button>
+            <button>chocolate</button>
+        </div>
+        <div>
+            <p>Hello, World!</p>
+            <p>I came to the college at 9:30 am. I attended all the classes. I solved given lab programming questions.</p>
+        </div>
+    </section>
+
+    <section class="sec1">
+        <div><a href="https://www.google.com/">Search with Google</a></div><br>
+        <div><a href="https://www.google.com/" target="_blank" >Search with Google</a></div>
+
+    </section>
+
+    <section class="amazon">
+        <a href="https://www.amazon.com/" target="_blank">Back to Amazon</a>
+        <h3>Nike Black Running Shoes</h3>
+        <h3>$39 - in stock.</h3>
+        <h3>Free delivery tomorrow.</h3>
+        <div class="shop-btn">
+            <button>Add to Cart</button>
+            <button>Buy now</button>
+        </div>
+    </section>
+</body>
+</html>
